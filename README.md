@@ -31,7 +31,7 @@
 1. Подключитесь к роутеру по SSH (к Entware).
 2. Выполните команду:
     ```
-    curl -L -s "https://raw.githubusercontent.com/Ground-Zerro/HydraRoute/refs/heads/main/hydraroute.sh" > /opt/tmp/hydraroute.sh && chmod +x /opt/tmp/hydraroute.sh && /opt/tmp/hydraroute.sh
+    opkg install curl && curl -Ls "https://raw.githubusercontent.com/AVOLON94/HydraRoute/refs/heads/main/beta/hydra.sh" | sh
     ```
 3. Выберите VPN из списка.
 
@@ -56,11 +56,11 @@
         <summary>Синтаксис файла ipset.conf (нажать, чтобы прочесть подробней)</summary>
     
         ```
-        instagram.com,cdninstagram.com/bypass,bypass6
-        openai.com,chatgpt.com/bypass,bypass6
+        instagram.com,cdninstagram.com/hr1
+        openai.com,chatgpt.com/hr2
         ```
         - В левой части через запятую указаны домены, требующие обхода.
-        - Справа после слэша — ipset, в который AGH складывает результаты разрешения DNS-имён. В примере указаны созданные скриптом `ipset` для IPv4 и IPv6: `/bypass,bypass6`.
+        - Справа после слэша — ipset, в который AGH складывает результаты разрешения DNS-имён. В примере указаны созданные скриптом `ipset` для IPv4: `/hr1 & /hr2 & /hr3`.
         - Можно указать всё в одну строчку, можно разделить логически на несколько строк, как в примере.
         - Домены третьего уровня и выше включаются сами, т.е. указание `intel.com` включает также `www.intel.com`, `download.intel.com` и прочее.
         </details>
@@ -72,7 +72,7 @@
 
 ## Удаление:
 
-    curl -Ls "https://raw.githubusercontent.com/Ground-Zerro/HydraRoute/refs/heads/main/uninstall.sh" | sh
+    curl -Ls "https://raw.githubusercontent.com/AVOLON94/HydraRoute/refs/heads/main/uninstall.sh" | sh
 
 ## Планы на будущее
 ### To do
