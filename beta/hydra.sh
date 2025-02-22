@@ -381,6 +381,8 @@ cdninstagram.com,instagram.com,bookstagram.com,carstagram.com,chickstagram.com,i
 chatgpt.com,openai.com,oaistatic.com,files.oaiusercontent.com,gpt3-openai.com,openai.fund,openai.org/hr1
 ##GitHub
 github.com,githubusercontent.com,githubcopilot.com/hr1
+##MyDomainsAdd
+adguard.info,spaces.im,clashofclans.com,supercell.com,brawlstars.com,viber.com/hr1
 EOF
 }
 
