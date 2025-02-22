@@ -405,7 +405,7 @@ policy_set() {
 install_panel() {
 	opkg install node tar
 	mkdir -p /opt/tmp
-	curl -Ls -o /opt/tmp/hpanel.tar "https://github.com/Ground-Zerro/HydraRoute/raw/refs/heads/main/beta/webpanel/hpanel.tar"
+	curl -Ls -o /opt/tmp/hpanel.tar "https://github.com/AVOLON94/HydraRoute/raw/refs/heads/main/beta/webpanel/hpanel.tar"
 	mkdir -p /opt/etc/HydraRoute
 	tar -xf /opt/tmp/hpanel.tar -C /opt/etc/HydraRoute/
 	rm /opt/tmp/hpanel.tar
