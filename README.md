@@ -31,7 +31,7 @@
 1. Подключитесь к роутеру по SSH (к Entware).
 2. Выполните команду:
     ```
-    opkg install curl && curl -Ls "https://raw.githubusercontent.com/AVOLON94/HydraRoute/refs/heads/main/beta/hydra.sh" | sh
+    opkg install curl && curl -Ls "https://raw.githubusercontent.com/AVOLON94/HydraRoute/refs/heads/main/hydra.sh" | sh
     ```
 3. Выберите VPN из списка.
 
