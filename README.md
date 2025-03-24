@@ -27,13 +27,13 @@
 
 ## Установка:
 Выберите версию **HydraRoute**
-1. [v.0.0.1b](https://github.com/Ground-Zerro/HydraRoute/tree/main/beta001)
+1. [v.0.0.1b](https://github.com/AVOLON94/HydraRoute/tree/main/beta001)
 - Первая версия.
 - Она работает.
 - Добавление сервисов и блэклистов к списку доменов одной кнопкой.
 - Поддержка работы с IPv6 *(если Ваш VPN сервер умеет маршрутизировать IPv6 трафик и провайдер+хостер предоставляют IPv6-адреса)*.
 
-2. [v.0.0.2b](https://github.com/Ground-Zerro/HydraRoute/tree/main/beta002)
+2. [v.0.0.2b](https://github.com/AVOLON94/HydraRoute/tree/main/beta002)
 - Возможность выставления приоритетов подключений и их резервирование.
 - Многопутевая передача Keenetic.
 - Маршрутизация разных доменов в разные туннели.
@@ -42,7 +42,7 @@
 
 ## Удаление:
 ```
-curl -Ls "https://raw.githubusercontent.com/Ground-Zerro/HydraRoute/refs/heads/main/uninstall.sh" | sh
+curl -Ls "https://raw.githubusercontent.com/AVOLON94/HydraRoute/refs/heads/main/uninstall.sh" | sh
 ```
 
 ## Планы на будущее
